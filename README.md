@@ -3,5 +3,5 @@
 Esta es un Rest con node EXpress y otros
 no olvidar instalar paquetes
 ````
-npm istall
+npm install
 ````
