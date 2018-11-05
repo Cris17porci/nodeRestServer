@@ -14,7 +14,7 @@ app.use(bodyParser.json())
 
 app.use(require('./routes/usuario'));
 
-mongoose.connect('mongodb://localhost:27017/botilleria', (err, rest) => {
+mongoose.connect(process.env.URLDB, (err, rest) => {
     if (err) throw err;
     console.log('BAse de Datos ONLINE');
 
